@@ -1,6 +1,4 @@
 # our-e-class
-1
-
 ---
 title: Configuring Docker for use with GitHub Packages
 intro: 'You can configure the Docker client to use {% data variables.product.prodname_registry %} to publish and retrieve docker images.'
@@ -270,3 +268,31 @@ $ docker pull <em>HOSTNAME/OWNER/REPOSITORY/IMAGE_NAME:TAG_NAME</em>
 ### Further reading
 
 - "[Deleting a package](/packages/publishing-and-managing-packages/deleting-a-package/)"
+
+
+Database
+Database structure snapshot are here.
+
+A full database documentation will be created soon..
+
+Server.dart
+You need to create this and put in /core/ folder.
+This File is necessary in order to make Cloud Functions work.
+
+class Server {
+  static String baseUrl =
+      YOUR-CLOUD-FUNCTION-URL;
+  static String webApi = 'webApi/';
+  static String profileUpdate = 'profileupdate';
+  static String getProfileData = 'userdata';
+  static String postAnnouncement = 'postAnnouncement';
+  static String addAssignment = 'addAssignment';
+}
+Getting Started
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+Lab: Write your first Flutter app
+Cookbook: Useful Flutter samples
+For help getting started with Flutter, view our online documentation, which offers tutorials, samples, guidance on mobile development, and a full API reference.
