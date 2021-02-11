@@ -1,5 +1,6 @@
 # our-e-class
 1
+
 ---
 title: Configuring Docker for use with GitHub Packages
 intro: 'You can configure the Docker client to use {% data variables.product.prodname_registry %} to publish and retrieve docker images.'
